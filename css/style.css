@@ -33,3 +33,12 @@ button {
     color: white;
     cursor: pointer;
 }
+
+li {
+    display: inline-block;
+    width: 49%;
+}
+
+li img {
+    width: 100%;
+}
