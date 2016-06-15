@@ -2,9 +2,22 @@ body {
     background-color: bisque;
 }
 
+h1 {
+    margin-top: -10px;
+    font-family: cursive;
+    font-size: 5em;
+    text-align: center
+}
+
 form {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+
+#searchResults {
+    text-align: center;
+    width: 81%;
+    margin: 0 auto;
 }
 
 footer {
@@ -13,23 +26,24 @@ footer {
 
 input,
 button {
-    font-weight: 320px;
+    font-weight: 200;
     outline: none;
-    font-size: 1.5em;
+    font-size: 2.5em;
     letter-spacing: 3px;
 }
 
 input {
     height: 50px;
-    width: 350px;
-    text-transform: capitalize
+    width: 814px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 button {
-    height: 40px;
-    width: 100px;
+    height: 54px;
+    width: 176px;
     border-radius: 10px;
-    background-color: indianred;
+    background-color: #91cd5c;
     color: white;
     cursor: pointer;
 }
@@ -37,8 +51,14 @@ button {
 li {
     display: inline-block;
     width: 49%;
+    padding: .3%;
+    margin-top: 5%;
 }
 
 li img {
-    width: 100%;
+    width: 95%;
+}
+
+li b {
+    font-size: 1.65em;
 }
